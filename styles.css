@@ -1,0 +1,62 @@
+body {
+  background-color: #565a60
+}
+
+.timeline {
+  /*background-color: white;*/
+  position: relative;
+  top: 200px;
+  height: 2818px
+}
+
+.timeline-bar {
+  width: 120px;
+  /*height: 2468px;*/
+  position: absolute;
+  top: 100px;
+  left: 400px;
+}
+
+.renaissance-bar {
+  background-color: #F1433F;
+  height: 800px;
+  position: relative;
+  z-index: 5;
+}
+
+.baroque-bar {
+  background-color: #F7E967;
+  height: 600px;
+  padding-top: 6px;
+  z-index: 4;
+}
+
+.classical-bar {
+  background-color: #A9CF54;
+  height: 280px;
+  z-index: 3;
+}
+
+.romantic-bar {
+  background-color: #70B7BA;
+  height: 370px;
+  z-index: 2;
+}
+
+.modern-bar {
+  background-color: #5d747f;
+  height: 421px;
+  z-index: 1;
+}
+
+.period-bar {
+  opacity: 0.6;
+  margin-bottom: 1.5px;
+  position: relative;
+}
+
+.period-bar:hover {
+  opacity: 0.85;
+  transition-duration: 0.2s;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
+}
