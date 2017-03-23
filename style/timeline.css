@@ -1,12 +1,10 @@
-body {
-  background-color: #565a60
-}
-
 .timeline {
   /*background-color: white;*/
   position: relative;
   top: 200px;
-  height: 2818px
+  height: 3200px;
+  bottom: 300px;
+  /*bottom: 100px;*/
 }
 
 .timeline-bar {
@@ -47,6 +45,7 @@ body {
   background-color: #5d747f;
   height: 421px;
   z-index: 1;
+
 }
 
 .period-bar {
@@ -58,5 +57,11 @@ body {
 .period-bar:hover {
   opacity: 0.85;
   transition-duration: 0.2s;
-  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.7);
+}
+
+.active-bar {
+  transition-duration: 3s;
+  opacity: 0.85;
+  height: 800px;
 }

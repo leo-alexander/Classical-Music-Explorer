@@ -1,0 +1,26 @@
+{
+  "name": "Classical-Music-Explorer",
+  "version": "1.0.0",
+  "description": "An interactive timeline of Classical Music periods and composers",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo-alexander/Classical-Music-Explorer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leo-alexander/Classical-Music-Explorer/issues"
+  },
+  "homepage": "https://github.com/leo-alexander/Classical-Music-Explorer#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^2.3.1"
+  }
+}

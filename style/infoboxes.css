@@ -1,0 +1,49 @@
+.infobox {
+  visibility: hidden;
+  -webkit-animation: slide-out 1s;
+  animation: slide-out 1s;
+  position: fixed;
+  width: 500px;
+  right: 30px;
+  bottom: 30px;
+  top: 300px;
+  background-color: white;
+  border-radius: 10px;
+  color: red;
+  opacity: 0;
+}
+
+.active-info {
+  -webkit-animation: slide-in 0.5s;
+  animation: slide-in 0.5s;
+  position: fixed;
+  width: 500px;
+  right: 30px;
+  bottom: 30px;
+  top: 300px;
+  background-color: white;
+  border-radius: 10px;
+  color: red;
+  opacity: 1;
+}
+
+
+@-webkit-keyframes slide-in {
+  0%  {-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}
+  100%  {-webkit-transform:translateX(0);transform:translateX(0);opacity:1}
+}
+
+@keyframes slide-in {
+  0%  {-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}
+  100%  {-webkit-transform:translateX(0);transform:translateX(0);opacity:1}
+}
+
+@-webkit-keyframes slide-out {
+  0%  {-webkit-transform:translateX(0px);transform:translateX(0px);opacity:1}
+  100%  {-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}
+}
+
+@keyframes slide-out {
+  0%  {-webkit-transform:translateX(0px);transform:translateX(0px);opacity:1}
+  100%  {-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}
+}

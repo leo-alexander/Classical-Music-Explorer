@@ -2,35 +2,60 @@
 <html>
   <head>
     <title>Classical Timeline</title>
-    <link type="text/css" rel="stylesheet" href="styles.css"/>
+    <link type="text/css" rel="stylesheet" href="style/main.css"/>
+    <link type="text/css" rel="stylesheet" href="style/timeline.css"/>
+    <link type="text/css" rel="stylesheet" href="style/infoboxes.css"/>
+    <link type="text/css" rel="stylesheet" href="style/jquery-ui.css">
+    <link type="text/css" rel="stylesheet" href="style/jquery-ui.min.css">
+    <link type="text/css" rel="stylesheet" href="style/jquery-ui.structure.css">
+    <link type="text/css" rel="stylesheet" href="style/jquery-ui.structure.min.css">
+    <link type="text/css" rel="stylesheet" href="style/jquery-ui.theme.css">
+    <link type="text/css" rel="stylesheet" href="style/jquery-ui.theme.min.css">
   </head>
   <body>
     <div class="timeline">
       <div class="demo"></div>
       <div class="timeline-bar">
-        <div onclick="doSomething()" class="renaissance-bar period-bar">
+        <div class="renaissance-bar period-bar" id="show-renaissance">
           renaissance
         </div>
-        <div class="baroque-bar period-bar">
+        <div class="baroque-bar period-bar" id="show-baroque">
           baroque
         </div>
-        <div class="classical-bar period-bar">
+        <div class="classical-bar period-bar" id="show-classical">
           classical
         </div>
-        <div class="romantic-bar period-bar">
+        <div class="romantic-bar period-bar" id="show-romantic">
           romantic
         </div>
-        <div class="modern-bar period-bar">
+        <div class="modern-bar period-bar" id="show-modern">
           modern
         </div>
       </div>
     </div>
+    <div class="infoboxes">
+      <div class="infobox renaissance-box">
+        renaissance-box
+      </div>
+      <div class="infobox baroque-box">
+        baroque-box
+      </div>
+      <div class="infobox classical-box">
+        classical-box
+      </div>
+      <div class="infobox romantic-box">
+        romantic-box
+      </div>
+      <div class="modern-box infobox">
+        modern-box
+      </div>
+    </div>
     <script>
-      function doSomething() {
-        document.getElementsByClassName("demo").innerHTML = "Helloworld";
-      }
+
     </script>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="script.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="jquery-ui.min.js"></script>
   </body>
 </html>
