@@ -61,7 +61,56 @@
 }
 
 .active-bar {
-  transition-duration: 3s;
+  /*transition-duration: 3s;*/
   opacity: 0.85;
+  height: 850px;
+}
+
+.timeline-dates {
+  width: 120px;
+  /*height: 2468px;*/
+  position: absolute;
+  top: 100px;
+  left: 280px;
+}
+
+.dates {
+  margin-bottom: 1.5px;
+}
+
+.renaissance-dates {
+  background-color: #F1433F;
   height: 800px;
+  position: relative;
+  z-index: 5;
+}
+
+.baroque-dates {
+  background-color: #F7E967;
+  height: 600px;
+  padding-top: 6px;
+  z-index: 4;
+}
+
+.classical-dates {
+  background-color: #A9CF54;
+  height: 280px;
+  z-index: 3;
+}
+
+.romantic-dates {
+  background-color: #70B7BA;
+  height: 370px;
+  z-index: 2;
+}
+
+.modern-dates {
+  background-color: #5d747f;
+  height: 421px;
+  z-index: 1;
+}
+
+.active-dates {
+  transition-duration: 0.3s;
+  height: 850px;
 }

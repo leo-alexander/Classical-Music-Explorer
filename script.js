@@ -3,23 +3,28 @@ const $ = window.$
 const periods = [{
   id: 'show-renaissance',
   bar: 'renaissance-bar',
-  box: 'renaissance-box'
+  box: 'renaissance-box',
+  dates: 'renaissance-dates'
 }, {
   id: 'show-baroque',
   bar: 'baroque-bar',
-  box: 'baroque-box'
+  box: 'baroque-box',
+  dates: 'baroque-dates'
 }, {
   id: 'show-classical',
   bar: 'classical-bar',
-  box: 'classical-box'
+  box: 'classical-box',
+  dates: 'classical-dates'
 }, {
   id: 'show-romantic',
   bar: 'romantic-bar',
-  box: 'romantic-box'
+  box: 'romantic-box',
+  dates: 'romantic-dates'
 }, {
   id: 'show-modern',
   bar: 'modern-bar',
-  box: 'modern-box'
+  box: 'modern-box',
+  dates: 'modern-dates'
 }]
 
 function addListeners () {
@@ -37,16 +42,17 @@ function showPeriod (selectedPeriod) {
   hidePeriods.map(period => {
     $('.' + period.bar).removeClass('active-bar')
     $('.' + period.box).removeClass('active-info')
+    $('.' + period.dates).removeClass('active-dates')
   })
   $('.' + selectedPeriod.bar).toggleClass('active-bar')
   $('.' + selectedPeriod.box).toggleClass('active-info')
+  $('.' + selectedPeriod.dates).toggleClass('active-dates')
 }
 
 function scrollToPeriod (selectedPeriod) {
   console.log(selectedPeriod)
   $('html, body').animate({ scrollTop: $('#' + selectedPeriod.id).offset().top - 50 }, 400)
 }
-
 
 
 window.setTimeout(function () {
