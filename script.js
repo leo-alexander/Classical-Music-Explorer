@@ -4,27 +4,37 @@ const periods = [{
   id: 'show-renaissance',
   bar: 'renaissance-bar',
   box: 'renaissance-box',
-  dates: 'renaissance-dates'
+  dates: 'renaissance-dates',
+  start: 1400,
+  range: 200
 }, {
   id: 'show-baroque',
   bar: 'baroque-bar',
   box: 'baroque-box',
-  dates: 'baroque-dates'
+  dates: 'baroque-dates',
+  start: 1600,
+  range: 150
 }, {
   id: 'show-classical',
   bar: 'classical-bar',
   box: 'classical-box',
-  dates: 'classical-dates'
+  dates: 'classical-dates',
+  start: 1750,
+  range: 70
 }, {
   id: 'show-romantic',
   bar: 'romantic-bar',
   box: 'romantic-box',
-  dates: 'romantic-dates'
+  dates: 'romantic-dates',
+  start: 1820,
+  range: 90
 }, {
   id: 'show-modern',
   bar: 'modern-bar',
   box: 'modern-box',
-  dates: 'modern-dates'
+  dates: 'modern-dates',
+  start: 1910,
+  range: 107
 }]
 
 function addListeners () {
