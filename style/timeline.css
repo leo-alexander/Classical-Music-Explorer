@@ -45,7 +45,6 @@
   background-color: #5d747f;
   height: 421px;
   z-index: 1;
-
 }
 
 .period-bar {
@@ -71,7 +70,7 @@
   /*height: 2468px;*/
   position: absolute;
   top: 100px;
-  left: 280px;
+  left: 200px;
 }
 
 .dates {
@@ -79,38 +78,80 @@
 }
 
 .renaissance-dates {
-  background-color: #F1433F;
   height: 800px;
   position: relative;
   z-index: 5;
 }
 
 .baroque-dates {
-  background-color: #F7E967;
   height: 600px;
   padding-top: 6px;
   z-index: 4;
 }
 
 .classical-dates {
-  background-color: #A9CF54;
   height: 280px;
   z-index: 3;
 }
 
 .romantic-dates {
-  background-color: #70B7BA;
   height: 370px;
   z-index: 2;
 }
 
 .modern-dates {
-  background-color: #5d747f;
-  height: 421px;
+height: 421px;
   z-index: 1;
 }
 
 .active-dates {
   transition-duration: 0.3s;
   height: 850px;
+}
+
+ul.ruler {
+  color: white;
+  margin: 0;
+  padding-top: 0;
+  list-style: none;
+  position: relative;
+  top: -8px;
+}
+
+.ruler li {
+  height: 4.04px;
+  position: relative;
+  /*top: -8px;*/
+  margin: 0;
+  padding-top: 0px;
+}
+
+.active-dates.renaissance-dates li {
+  height: 4.25px;
+  position: relative;
+  top: -8px
+}
+
+.active-dates.baroque-dates li {
+  height: 5.666px;
+  position: relative;
+  top: -8px
+}
+
+.active-dates.classical-dates li {
+  height: 12.142px;
+  position: relative;
+  top: -8px
+}
+
+.active-dates.romantic-dates li {
+  height: 9.444px;
+  position: relative;
+  top: -8px
+}
+
+.active-dates.modern-dates li {
+  height: 7.943px;
+  position: relative;
+  top: -8px
 }
