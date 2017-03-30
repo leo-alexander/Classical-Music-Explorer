@@ -8,7 +8,7 @@
   bottom: 30px;
   top: 300px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 2px;
   color: red;
   opacity: 0;
 }
@@ -22,9 +22,10 @@
   bottom: 30px;
   top: 300px;
   background-color: white;
-  border-radius: 10px;
+  #595959
+  border-radius: 2px;
   color: red;
-  opacity: 1;
+  opacity: 0.8;
 }
 
 

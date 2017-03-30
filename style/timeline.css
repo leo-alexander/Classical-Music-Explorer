@@ -8,41 +8,41 @@
 }
 
 .timeline-bar {
-  width: 120px;
+  width: 50px;
   /*height: 2468px;*/
   position: absolute;
   top: 100px;
-  left: 400px;
+  left: 500px;
 }
 
 .renaissance-bar {
-  background-color: #F1433F;
+  background-color: white;
   height: 800px;
   position: relative;
   z-index: 5;
 }
 
 .baroque-bar {
-  background-color: #F7E967;
+  background-color: white;
   height: 600px;
   padding-top: 6px;
   z-index: 4;
 }
 
 .classical-bar {
-  background-color: #A9CF54;
+  background-color: white;
   height: 280px;
   z-index: 3;
 }
 
 .romantic-bar {
-  background-color: #70B7BA;
+  background-color: white;
   height: 370px;
   z-index: 2;
 }
 
 .modern-bar {
-  background-color: #5d747f;
+  background-color: white;
   height: 421px;
   z-index: 1;
 }
@@ -70,7 +70,7 @@
   /*height: 2468px;*/
   position: absolute;
   top: 100px;
-  left: 200px;
+  left: 300px;
 }
 
 .dates {
@@ -100,7 +100,7 @@
 }
 
 .modern-dates {
-height: 421px;
+  height: 421px;
   z-index: 1;
 }
 

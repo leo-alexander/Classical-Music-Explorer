@@ -88,6 +88,8 @@ $(function generateDates () {
           ruler.append(item.clone().text('---' + i + '---'))
         } else if (i % 50 === 0) {
           ruler.append(item.clone().text('---' + i + '---'))
+        } else if (i % 5 === 0) {
+          ruler.append(item.clone().text('---'))
         } else {
           ruler.append(item.clone().text('-'))
         }
